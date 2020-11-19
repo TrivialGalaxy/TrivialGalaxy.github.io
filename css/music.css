@@ -1,0 +1,412 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.mainpage {
+  min-height: 100vh;
+  position: relative;
+  margin: 0px;
+}
+
+.sectionhome {
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  z-index: 6;
+  padding: 10px;
+  color: white;
+  font-size: 2rem;
+  height: 3rem;
+  text-shadow: 0 0 20px black;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+#topbar {
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  z-index: 3;
+}
+
+#sectionmusic, #sectionabout, #sectiontalk {
+  position: relative;
+  padding: 0px;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  margin: 0px;
+  text-shadow: 0 0 20px black;
+}
+
+#sectionmusic {
+  color: #e06666;
+}
+
+#sectionmusic, #sectionabout {
+  border-right-style: solid;
+  border-right-width: 0.1rem;
+  border-color: white;
+}
+
+.sectionlinks {
+  text-decoration: none;
+  color: white;
+}
+
+#bottomofpage {
+  margin-top: -21px;
+  width: 100%;
+  background-color: #666666;
+  box-shadow: 0 0 20px black;
+}
+
+#questions {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  line-height: 1rem;
+  position: relative;
+  font-size: 2rem;
+}
+
+#letstalk {
+  color: #e06666;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0px;
+}
+
+#email {
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  position: relative;
+  font-size: 2rem;
+}
+
+#copyright {
+  left: 0px;
+  bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+#headercontainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+}
+
+#headercontainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(/images/IMG_1054.JPG);
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0 0 20px black;
+}
+
+#header {
+  margin: 0px;
+  width: 100%;
+  height: 40%;
+  top: 38%;
+  background-color: #00000095;
+  position: absolute;
+  z-index: 0;
+  padding: 0px;
+}
+
+#name {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  z-index: 2;
+  font-size: 6rem;
+  letter-spacing: 1rem;
+  display: block;
+  position: absolute;
+  left: 0px;
+  margin-left: 2rem;
+}
+
+#whatido {
+  display: block;
+  margin-top: 5rem;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  top: 50%;
+  font-size: 2rem;
+  font-weight: 400;
+  z-index: 1;
+  left: 0px;
+  margin-left: 2rem;
+}
+
+#elssection {
+  width: 100%;
+  height: 39rem;
+  background-color: #333333;
+  padding-top: 1rem;
+}
+
+#elslink {
+  width: 30rem;
+  height: 9.01rem;
+  background-image: url("https://media.discordapp.net/attachments/496394035506708492/776529631611322398/ElsweyrLogoUpdatedFlat_1024px.png?width=737&height=223");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: relative;
+  align-self: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 10px black);
+}
+
+.underlogo {
+  width: 100%;
+  height: 30.99rem;
+}
+
+#elsweyrart {
+  background-image: url("/images/ELSART.png");
+  background-size: cover;
+  background-position: center;
+  width: 27.99rem;
+  height: 27.99rem;
+  display: block;
+  margin-left: 2rem;
+  position: absolute;
+  box-shadow: 0 0 20px black;
+  float: left;
+}
+
+.projectlink {
+  color: #e06666;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.projectexpl {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  position: relative;
+}
+
+#elsweyrexpcont {
+  float: left;
+  position: absolute;
+  left: 33rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#elsweyrexpl {
+  position: relative;
+}
+
+#mfesection {
+  width: 100%;
+  height: 39rem;
+  background-color: #111111;
+  padding-top: 1rem;
+}
+
+.slideleft {
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+.slideright {
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+#totcsection {
+  width: 100%;
+  height: 39rem;
+  background-color: #333333;
+  padding-top: 1rem;
+}
+
+#othersection {
+  width: 100%;
+  height: 39rem;
+  background-color: #111111;
+  padding-top: 1rem;
+}
+
+#mfelink {
+  width: 23.61rem;
+  height: 9.01rem;
+  background-image: url("/images/MusicfromEleatis.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: relative;
+  align-self: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 10px black);
+}
+
+#mfeexpcont {
+  float: left;
+  position: absolute;
+  right: 33rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mfeart {
+  background-image: url("/images/MFEART.png");
+  background-size: cover;
+  background-position: center;
+  width: 27.99rem;
+  height: 27.99rem;
+  display: block;
+  right: 2rem;
+  position: absolute;
+  box-shadow: 0 0 20px black;
+  float: right;
+}
+
+#mfeexpl {
+  position: relative;
+  top: 3rem;
+}
+
+#totclink {
+  width: 12.61rem;
+  height: 9.01rem;
+  display: block;
+  position: relative;
+  align-self: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 10px black);
+  background-image: url("/images/TOTCLOGO.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#otherlink {
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+  position: relative;
+  align-self: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 10px black);
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#totcart {
+  background-image: url("/images/TurnoftheCentury.png");
+  background-size: cover;
+  background-position: center;
+  width: 27.99rem;
+  height: 27.99rem;
+  display: block;
+  margin-left: 2rem;
+  position: absolute;
+  box-shadow: 0 0 20px black;
+  float: left;
+}
+
+#totcexpl {
+  position: relative;
+}
+
+#totcexpcont {
+  float: left;
+  position: absolute;
+  left: 33rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#otherexpcont {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.come-in {
+  transform: translateX(-100%);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+
+.come-in-right {
+  transform: translateX(100%);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in-right:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+
+@keyframes come-in {
+  to { transform: translateX(0); }
+}
+
+@keyframes come-in-right {
+  to { transform: translateX(0); }
+}
+
+.sections {
+  width: 100%;
+  background-color: black;
+  font-size: 2.5rem;
+}
+
+.otherproject {
+  position: relative;
+  text-align: center;
+  height: 3rem;
+}
