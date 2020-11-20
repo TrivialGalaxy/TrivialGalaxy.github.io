@@ -402,6 +402,7 @@ body {
   position: relative;
   font-size: 2rem;
   display: block;
+  text-decoration: none;
 }
 
 #copyright {
