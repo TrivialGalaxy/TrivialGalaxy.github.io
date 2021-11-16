@@ -299,6 +299,7 @@ body {
   margin-right: 5rem;
   text-decoration: none;
   color: black;
+  float: left;
 }
 
 #mfe {
@@ -317,6 +318,27 @@ body {
   position: relative;
   text-decoration: none;
   color: black;
+  float: left;
+}
+
+#ooacont {
+  width: 15rem;
+  height: 20rem;
+  position: relative;
+  margin-left: 5rem;
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+
+#ooa {
+  background-image: url("/images/The_Oozing.png");
+  background-size: cover;
+  background-position: center;
+  width: 15rem;
+  height: 15rem;
+  z-index: 5;
+  position: relative;
 }
 
 #totc {
@@ -334,9 +356,9 @@ body {
   height: 20rem;
   position: relative;
   margin-left: 5rem;
-  clear: right;
   text-decoration: none;
   color: black;
+  float: left;
 }
 
 #centerportfolio {
@@ -433,7 +455,7 @@ body {
   text-align: center;
   display: block;
   z-index: 7;
-  margin-top: 35rem;
+  bottom: 1rem;
 }
 
 .come-in {

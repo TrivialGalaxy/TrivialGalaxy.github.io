@@ -182,12 +182,33 @@ body {
   padding-top: 1rem;
 }
 
+#ooasection {
+  width: 100%;
+  height: 39rem;
+  background-color: #111111;
+  padding-top: 1rem;
+}
+
 #elslink {
   width: 30rem;
   height: 9.01rem;
   background-image: url("https://media.discordapp.net/attachments/496394035506708492/776529631611322398/ElsweyrLogoUpdatedFlat_1024px.png?width=737&height=223");
   background-size: cover;
   background-position: center;
+  display: block;
+  position: relative;
+  align-self: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 10px black);
+}
+
+#ooalink {
+  width: 40rem;
+  height: 9.01rem;
+  background-image: url("/images/OozingLogo.png");
+  background-size: 40rem;
+  background-position: center;
+  background-repeat: no-repeat;
   display: block;
   position: relative;
   align-self: center;
@@ -211,6 +232,19 @@ body {
   position: absolute;
   box-shadow: 0 0 20px black;
   float: left;
+}
+
+#ooaart {
+  background-image: url("/images/The_Oozing.png");
+  background-size: cover;
+  background-position: center;
+  width: 27.99rem;
+  height: 27.99rem;
+  display: block;
+  right: 2rem;
+  position: absolute;
+  box-shadow: 0 0 20px black;
+  float: right;
 }
 
 .projectlink {
@@ -239,7 +273,21 @@ body {
   align-items: center;
 }
 
+#ooaexpcont {
+  float: left;
+  position: absolute;
+  right: 33rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #elsweyrexpl {
+  position: relative;
+}
+
+#ooaexpl {
   position: relative;
 }
 
@@ -272,7 +320,7 @@ body {
 #othersection {
   width: 100%;
   height: 39rem;
-  background-color: #111111;
+  background-color: #333333;
   padding-top: 1rem;
 }
 
