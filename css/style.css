@@ -93,8 +93,7 @@ body {
 
 #soundcloud {
   position: relative;
-  height: 70%;
-  width: 80%;
+  height: 64px;
 }
 
 #twittercontainer {
@@ -112,8 +111,7 @@ body {
 
 #twitter {
   position: relative;
-  height: 80%;
-  width: 74%;
+  height: 73%;
 }
 
 #name {
