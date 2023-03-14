@@ -202,7 +202,7 @@ body {
   margin-left: 2rem;
   position: relative;
   width: 60%;
-  text-shadow: 0 0 20px black;
+  text-shadow: 0 0 1px black;
 }
 
 .projectlink {

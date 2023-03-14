@@ -184,7 +184,7 @@ body {
 #ooasection {
   width: 100%;
   height: 39rem;
-  background-color: #111111;
+  background-color: #333333;
   padding-top: 1rem;
 }
 
@@ -240,10 +240,10 @@ body {
   width: 27.99rem;
   height: 27.99rem;
   display: block;
-  right: 2rem;
+  margin-left: 2rem;
   position: absolute;
   box-shadow: 0 0 20px black;
-  float: right;
+  float: left;
 }
 
 .projectlink {
@@ -283,8 +283,8 @@ body {
 #ooaexpcont {
   float: left;
   position: absolute;
-  right: 33rem;
-  margin-left: 2rem;
+  left: 33rem;
+  margin-right: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,13 +296,6 @@ body {
 
 #ooaexpl {
   position: relative;
-}
-
-#mfesection {
-  width: 100%;
-  height: 39rem;
-  background-color: #111111;
-  padding-top: 1rem;
 }
 
 .slideleft {
@@ -320,56 +313,15 @@ body {
 #totcsection {
   width: 100%;
   height: 39rem;
-  background-color: #333333;
+  background-color: #111111;
   padding-top: 1rem;
 }
 
 #othersection {
   width: 100%;
   height: 39rem;
-  background-color: #333333;
+  background-color: #111111;
   padding-top: 1rem;
-}
-
-#mfelink {
-  width: 23.61rem;
-  height: 9.01rem;
-  background-image: url("/images/MusicfromEleatis.png");
-  background-size: cover;
-  background-position: center;
-  display: block;
-  position: relative;
-  align-self: center;
-  margin: 0 auto;
-  filter: drop-shadow(0 0 10px black);
-}
-
-#mfeexpcont {
-  float: left;
-  position: absolute;
-  right: 33rem;
-  margin-left: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#mfeart {
-  background-image: url("/images/MFEART.png");
-  background-size: cover;
-  background-position: center;
-  width: 27.99rem;
-  height: 27.99rem;
-  display: block;
-  right: 2rem;
-  position: absolute;
-  box-shadow: 0 0 20px black;
-  float: right;
-}
-
-#mfeexpl {
-  position: relative;
-  top: 3rem;
 }
 
 #totclink {
@@ -406,10 +358,10 @@ body {
   width: 27.99rem;
   height: 27.99rem;
   display: block;
-  margin-left: 2rem;
+  right: 2rem;
   position: absolute;
   box-shadow: 0 0 20px black;
-  float: left;
+  float: right;
 }
 
 #totcexpl {
@@ -419,8 +371,8 @@ body {
 #totcexpcont {
   float: left;
   position: absolute;
-  left: 33rem;
-  margin-right: 2rem;
+  right: 33rem;
+  margin-left: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
